@@ -488,7 +488,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .section-padding {
-  padding: 60px 0;
+  padding: 20px 0;
 }
 
 .no-padding {
@@ -916,7 +916,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   background: #E91E63;
   overflow: hidden;
   position: relative;
-  /* 
+  /*
     &:before{
     	content: '';
     	position: absolute;
