@@ -1,0 +1,217 @@
+.section-event-card{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	/*font-family: "montserrat";*/
+	box-sizing: border-box;
+	/*background: #050801;*/
+}
+
+.event-card{
+	/*background: #050801;*/
+	/*min-height: 100vh;*/
+	flex-direction: column;
+	font-size: 24px;
+}
+
+.heading-primary {
+  font-family: 'Signika', sans-serif;
+  font-size: 6rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  background-image: linear-gradient(to right, #00FFFF, #0033FF);
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: .2rem;
+  transition: all .2s; }
+  .heading-primary:hover {
+    transform: skewY(2deg) skewX(10deg) scale(1.1);
+    text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); 
+}
+
+.u-center-text {
+  text-align: center; }
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem; }
+/*.card-container{
+	display: block;
+	width: 100%;
+	height: 100%;
+	display:flex;
+	justify-content: space-around;
+	flex-wrap:wrap;
+}*/
+
+
+/*.middle{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}*/
+
+.card-for-event{
+	cursor: pointer;
+	width: 29%;
+	height: 500px;
+	display: inline-block; 
+	/*border: 5px solid red;*/
+	margin: 1.4%;
+	float: left;
+}
+
+.front,.back{
+	width: 30%;
+	height: 500px;
+	overflow: hidden;
+	backface-visibility: hidden;
+	position: absolute;
+	transition: transform .2s linear;
+}
+
+
+/*.front span {
+	color: #fff;
+	filter:hue-rotate(290deg);
+}*/
+
+.text-front{
+	color: #050801;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	/*font-family: 'Eczar', serif;
+	font-weight: 500;*/
+	font-family: 'Alegreya', cursive;
+	transform: translate(-50%,-50%);
+	-webkit-box-reflect: below 1px linear-gradient(transparent,#0005);
+}
+.front{
+	background : #03e9f4; 
+	background: linear-gradient(90deg,transparent,#03e9f4);
+	display: inline-block;
+	/*/letter-spacing: 4px;/*/
+	transition: 0.5s;
+	transform: perspective(600px) rotateY(0deg);
+}
+
+.back{
+	background: #E0FFFF;
+	transform: perspective(600px) rotateY(180deg);
+	/*font-family: 'Tangerine', serif;
+	font-size: 20px;*/
+  /*/text-shadow: 4px 4px 4px #aaa;/*/
+}
+
+.back-content{
+	color: #2c3e50;
+	font-family: 'Alegreya', cursive;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	/*justify-content: center;*/
+	/*top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);*/
+	/*/font-family: 'Gloria Hallelujah', cursive;/*/
+	/*position: relative;*/
+	text-align: center;
+	width: 100%;
+}
+
+.card-for-event:hover > .front{
+	transform: perspective(600px) rotateY(-180deg);
+}
+
+.card-for-event:hover > .back{
+	transform: perspective(600px) rotateY(0deg);
+}
+
+.card-for-event:hover {
+	/*background: #03e9f4;*/
+	color: #050801;
+	box-shadow: 0 0 5px #03e9f4,
+				0 0 25px #03e9f4,
+				0 0 50px #03e9f4,
+				0 0 200px #03e9f4;
+	/*/filter:hue-rotate(290deg);/*/
+}
+
+/*.front span:nth-child(1){
+	top: 0;
+	left: -100%;
+	width: 100%;
+	height: 488px;
+	background: linear-gradient(90deg,transparent,#03e9f4);
+	animation: animate1 1s linear infinite;
+}
+@keyframes animate1
+{
+	0%
+	{
+		left:-100%;
+	}
+	50%,100%{
+		left:100%;
+	}
+}
+.front span:nth-child(2){
+	top: -100%;
+	right: 0;
+	width: 348px;
+	height: 100%;
+	background: linear-gradient(180deg,transparent,#03e9f4);
+	animation: animate2 2s linear infinite;
+	animation-delay: 0.25s; 
+}
+@keyframes animate2
+{
+	0%
+	{
+		top:-100%;
+	}
+	50%,100%{
+		top:100%;
+	}
+}
+.front span:nth-child(3){
+	bottom: 0;
+	right: -100%;
+	width: 100%;
+	height: 488px;
+	background: linear-gradient(270deg,transparent,#03e9f4);
+	animation: animate3 1s linear infinite;
+	animation-delay: 0.5s;
+}
+@keyframes animate3
+{
+	0%
+	{
+		right:-100%;
+	}
+	50%,100%{
+		right:100%;
+	}
+}
+.front span:nth-child(4){
+	bottom: -100%;
+	left: 0;
+	width: 348px;
+	height: 100%;
+	background: linear-gradient(360deg,transparent,#03e9f4);
+	animation: animate4 1s linear infinite;
+	animation-delay: 0.75s;
+}
+@keyframes animate4
+{
+	0%
+	{
+		bottom:-100%;
+	}
+	50%,100%{
+		bottom:100%;
+	}
+}*/
