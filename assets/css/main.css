@@ -1421,6 +1421,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   width: inherit;
   padding: 15px 20px;
   background: linear-gradient(to right, #efc4f1, #aed5f0);
+  
   border: 1px solid black;
   border-radius: 50%;
 }
