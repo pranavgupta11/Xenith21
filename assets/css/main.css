@@ -57,8 +57,10 @@ ul li, ol li {
   list-style: none;
 
 }
+
 #orgTeam {
   padding-top: 80px;
+  margin-bottom: 6rem;
 }
 
 .Lbg{
@@ -1334,6 +1336,8 @@ a.back-to-top:hover, a.back-to-top:focus {
   margin: 15px auto;
   padding: 5px;
   border-radius: 4px;
+  display: flex;
+  justify-content: center;
   position: relative;
   box-shadow: 80px -80px 10px -80px #fff , -80px 80px 10px -80px #fff;
   transition: all 0.3s ease-in-out 0s;
@@ -1342,6 +1346,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   -o-transition: all 0.3s ease-in-out 0s;
   background: linear-gradient(to right, #fd5cff, #4caef2);
   width: 80%;
+  max-width: 265px;
 }
 
 .team-item .team-img {
@@ -1379,6 +1384,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   -moz-transition: all 0.3s ease-in-out 0s;
   -webkit-transition: all 0.3s ease-in-out 0s;
   -o-transition: all 0.3s ease-in-out 0s;
+  -ms-transition: all 0.3s ease-in-out 0s;
 }
 
 .team-item .overlay-social-icon .social-icons li {
@@ -1396,32 +1402,34 @@ a.back-to-top:hover, a.back-to-top:focus {
   color: #fff;
   width: 36px;
   height: 36px;
-  /* background: #E91E63; */
-
-  display: block;
+  /*background: #E91E63;
+  */display: block;
   border-radius: 4px;
   line-height: 36px;
   transition: all 0.3s ease-in-out 0s;
   -moz-transition: all 0.3s ease-in-out 0s;
   -webkit-transition: all 0.3s ease-in-out 0s;
   -o-transition: all 0.3s ease-in-out 0s;
+  -ms-transition: all 0.3s ease-in-out 0s;
 }
 
 
 .team-item .info-text {
   position: absolute;
   bottom: 10px;
-  left: 10px;
+  text-align: center;
+  width: inherit;
   padding: 15px 20px;
-  background: #f3f4f3;
-  text-align: left;
+  background: linear-gradient(to right, #efc4f1, #aed5f0);
+  border: 1px solid black;
+  border-radius: 50%;
 }
 
 .team-item .info-text h3 {
-  font-size: 16px;
+  font-size: 15px;
   text-transform: uppercase;
   font-weight: 700;
-  margin-bottom: 5px;
+  margin-bottom: 0;
 }
 
 .team-item .info-text h3 a {
@@ -1435,7 +1443,8 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .team-item .info-text p {
   margin: 0;
-  color: #888;
+  font-size: small;
+  color: #515151;
 }
 
 .team-item:hover .team-overlay {
