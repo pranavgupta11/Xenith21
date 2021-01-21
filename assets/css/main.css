@@ -67,9 +67,9 @@ ul li, ol li {
 }
 .neonHeading {
   font-family: 'Signika', sans-serif;
-  font-size: 4rem;
+  font-size: 5rem;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 400;
   display: inline-block;
   background-image: linear-gradient(to right,  #ff6ec7,#00FFFF);
   -webkit-background-clip: text;

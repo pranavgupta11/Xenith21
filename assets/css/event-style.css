@@ -114,12 +114,12 @@ body {
     width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
 
 .section-event-card {
-  background-color: #000;
+  background-color: #333333;
   background-image: url("../img/galaxy.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 15rem 0 15rem 0;
+  padding: 5rem 0 5rem 0;
   /*margin-top: -10rem;*/ }
 
 .event-card {
