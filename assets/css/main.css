@@ -94,9 +94,10 @@ ul li, ol li {
 } 
 .span-css {
   font-family: 'Signika', sans-serif;
-  font-size: 2rem;
+  font-size: 3.5rem;
   text-transform: uppercase;
   font-weight: 400;
+  margin-bottom: 3rem;
   display: inline-block;
   background-image: linear-gradient(to right,  #ff6ec7,#ffe227);
   /* background-image: linear-gradient(to right,  #ffe227,#eaac7f); */
@@ -145,6 +146,19 @@ ul li, ol li {
   width: 100%;
   /* width: 150px; */
 }
+
+@media(max-width: 910px) {
+  .ieeeLogo {
+    height: 39%;
+  }
+}
+
+@media(max-width: 576px) {
+  .ieeeLogo {
+    width: 80%;
+  }
+}
+
 .hero-heading {
   font-size: 40px;
   font-weight: 700;
@@ -2435,8 +2449,12 @@ footer{
   font-size: 100%;
 }
 
+.contact i:hover {
+  color: #00ffff;
+}
+
 .contact span{
-  vertical-align: super;
+  /* vertical-align: super; */
   margin-left: 1rem;
   font-size: 80%;
 }
