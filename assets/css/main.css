@@ -1524,9 +1524,6 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 /* Conact Home Page Section */
-.contact {
-  background: #111111;
-}
 
 #conatiner-map {
   width: 100%;
@@ -2409,4 +2406,26 @@ footer{
   background: rgba(255, 255, 255, 0.2);
   color: #fff;
   border-color: #fff;
+}
+
+.contact {
+  color: white;
+  font-weight: 300;
+}
+
+.contact h3 {
+  margin: 3.5rem 0;
+}
+
+.contact div {
+  margin-bottom: 3rem;
+}
+
+.contact i {
+  font-size: 200%;
+}
+
+.contact span{
+  vertical-align: super;
+  margin-left: 1rem;
 }
