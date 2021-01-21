@@ -57,6 +57,10 @@ ul li, ol li {
   list-style: none;
 
 }
+#orgTeam {
+  padding-top: 80px;
+}
+
 .Lbg{
   background: #333333;
   position: relative;
@@ -1364,7 +1368,8 @@ a.back-to-top:hover, a.back-to-top:focus {
   color: #fff;
   width: 36px;
   height: 36px;
-  background: #E91E63;
+  /* background: #E91E63; */
+
   display: block;
   border-radius: 4px;
   line-height: 36px;
@@ -1374,17 +1379,6 @@ a.back-to-top:hover, a.back-to-top:focus {
   -o-transition: all 0.3s ease-in-out 0s;
 }
 
-.team-item .overlay-social-icon .social-icons li a:hover .fa-facebook {
-  background: #3B5998;
-}
-
-.team-item .overlay-social-icon .social-icons li a:hover .fa-twitter {
-  background: #00aced;
-}
-
-.team-item .overlay-social-icon .social-icons li a:hover .fa-instagram {
-  background: #fb3958;
-}
 
 .team-item .info-text {
   position: absolute;
@@ -1407,7 +1401,8 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .team-item .info-text h3 a:hover {
-  color: #E91E63;
+  color: #E91E6;
+
 }
 
 .team-item .info-text p {

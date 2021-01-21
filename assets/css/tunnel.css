@@ -46,7 +46,8 @@
   padding: 1.5rem 0;
   left: 25vw;
   border-radius: 3%;
-  box-shadow: #ff42fd 0 0 30px -1px;
+  /* box-shadow: #ff42fd 0 0 30px -1px; */
+  box-shadow: #00ffff 0 0 30px -1px;
 }
 
 @media (max-width: 1100px) {
