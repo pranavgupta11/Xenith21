@@ -1345,12 +1345,8 @@ a.back-to-top:hover, a.back-to-top:focus {
   -webkit-transition: all 0.3s ease-in-out 0s;
   -o-transition: all 0.3s ease-in-out 0s;
   background: linear-gradient(to right, #fd5cff, #4caef2);
-<<<<<<< HEAD
   width: 80%;
   max-width: 265px;
-=======
-  width: 65%;
->>>>>>> 26b80786363154fb9a65a63cdf68e8838e6bba6b
 }
 
 .team-item .team-img {
