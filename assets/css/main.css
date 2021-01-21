@@ -76,7 +76,7 @@ ul li, ol li {
   font-size: 5rem;
   text-transform: uppercase;
   font-weight: 400;
-  display: inline-block;
+ display: inline-block;
   background-image: linear-gradient(to right,  #ff6ec7,#00FFFF);
   -webkit-background-clip: text;
   color: transparent;
@@ -84,6 +84,14 @@ ul li, ol li {
   transition: all .2s;
   /* position: inherit; */
 }
+#timelin{
+  margin-left: 40%; 
+}
+@media (max-width: 400px) {
+  #timelin{
+    margin-left: 30%; 
+  }
+} 
 .span-css {
   font-family: 'Signika', sans-serif;
   font-size: 2rem;
@@ -2182,7 +2190,7 @@ footer{
 
 /* Pricing Ticket */
 #pricing {
-  background: url(../img/background/bg-pricing.jpg);
+  background: url("https://i.ibb.co/XSry4Ht/bg-pricing.jpg");
   background-attachment: fixed;
   overflow: hidden;
   position: relative;
