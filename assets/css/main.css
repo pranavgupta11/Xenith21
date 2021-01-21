@@ -1345,12 +1345,8 @@ a.back-to-top:hover, a.back-to-top:focus {
   -webkit-transition: all 0.3s ease-in-out 0s;
   -o-transition: all 0.3s ease-in-out 0s;
   background: linear-gradient(to right, #fd5cff, #4caef2);
-<<<<<<< HEAD
   width: 80%;
   max-width: 265px;
-=======
-  width: 65%;
->>>>>>> 26b80786363154fb9a65a63cdf68e8838e6bba6b
 }
 
 .team-item .team-img {
@@ -1421,19 +1417,12 @@ a.back-to-top:hover, a.back-to-top:focus {
 .team-item .info-text {
   position: absolute;
   bottom: 10px;
-<<<<<<< HEAD
   text-align: center;
   width: inherit;
   padding: 15px 20px;
   background: linear-gradient(to right, #efc4f1, #aed5f0);
   border: 1px solid black;
   border-radius: 50%;
-=======
-  left: 10px;
-  padding: 5px 10px;
-  background: rgba(51, 51, 51, 0.9);
-  text-align: center;
->>>>>>> 26b80786363154fb9a65a63cdf68e8838e6bba6b
 }
 
 .team-item .info-text h3 {
@@ -1444,7 +1433,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .team-item .info-text h3 a {
-  color: cyan;
+  color: black;
 }
 
 .team-item .info-text h3 a:hover {
