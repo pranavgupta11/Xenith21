@@ -63,7 +63,7 @@
     float: right;
     text-align: center;
     width: 35px;
-    color: #666;
+    color: rgb(248, 245, 245);
   }
   .slicknav_nav .slicknav_item {
     cursor: pointer; }
@@ -123,7 +123,7 @@
     padding: 5px 10px;
     margin: 2px 5px;
     text-decoration: none;
-    color: #666; }
+    color: rgb(243, 240, 240); }
   .slicknav_nav .slicknav_txtnode {
     margin-left: 15px; }
   .slicknav_nav .slicknav_item a {
