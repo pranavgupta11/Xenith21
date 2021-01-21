@@ -20,6 +20,8 @@
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" >
     <!-- Icon -->
     <link rel="stylesheet" type="text/css" href="assets/fonts/line-icons.css">
+    <!-- Tunnel -->
+    <link rel="stylesheet" type="text/css" href="assets/css/tunnel.css">
     <!-- Slicknav -->
     <link rel="stylesheet" type="text/css" href="assets/css/slicknav.css">
     <!-- Nivo Lightbox -->
@@ -129,7 +131,7 @@
       <!-- Navbar End -->
 
       <!-- Main Carousel Section Start -->
-      <div id="main-slide" class="carousel slide" data-ride="carousel">
+      <!-- <div id="main-slide" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#main-slide" data-slide-to="0" class="active"></li>
           <li data-target="#main-slide" data-slide-to="1"></li>
@@ -163,7 +165,34 @@
           <span class="carousel-control" aria-hidden="true"><i class="lni-chevron-right"></i></span>
           <span class="sr-only">Next</span>
         </a>
+      </div> -->
+      
+      <div class="tunnel">
+        <canvas id="myCanvas" width="1000" height="1000">
+          Your browser does not support the HTML5 canvas tag.</canvas>
+        <div class="scene">
+            <div class="wrap">
+                <div class="wall wall-right"></div>
+                <div class="wall wall-left"></div>   
+                <div class="wall wall-top"></div>
+                <div class="wall wall-bottom"></div> 
+                <div class="wall wall-back"></div>    
+            </div>
+            <div class="wrap">
+                <div class="wall wall-right"></div>
+                <div class="wall wall-left"></div>   
+                <div class="wall wall-top"></div>
+                <div class="wall wall-bottom"></div>   
+                <div class="wall wall-back"></div>    
+            </div>
+        </div>
+        <img class="homepage_logo" src="assets/img/tunnel/logo.png" alt="Xenith">
       </div>
+
+      <!-- <a href="#" class="fadeInLeft wow btn btn-common btn-lg" data-wow-delay=".6s">Contact Us</a>
+      <a href="#" class="fadeInRight wow btn btn-border btn-lg" data-wow-delay=".6s">Explore More</a> -->
+
+      
       <!-- Main Carousel Section End -->
 
     </header>
@@ -1437,6 +1466,7 @@
     <script src="assets/js/jquery.easing.min.js"></script>
     <script src="assets/js/wow.js"></script>
     <script src="assets/js/jquery.slicknav.js"></script>
+    <script src="assets/js/tunnel.js"></script>
     <script src="assets/js/nivo-lightbox.js"></script>
     <script src="assets/js/main.js"></script>
   </body>

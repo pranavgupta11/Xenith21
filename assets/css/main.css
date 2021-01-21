@@ -59,10 +59,12 @@ ul li, ol li {
 }
 .Lbg{
   background: #333333;
+  position: relative;
   color: white;
 }
 .Dbg{
   background: #222222;
+  position: relative;
   color: white;
 }
 .neonHeading {
@@ -1875,6 +1877,7 @@ footer{
 
 .footer-area {
   background: #222222;
+  position: relative;
 }
 
 .footer-area h3 {
@@ -2060,6 +2063,7 @@ footer{
 
 #copyright {
   background: #0b0b0b;
+  position: relative;
   text-align: center;
 }
 
