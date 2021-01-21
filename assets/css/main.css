@@ -2447,11 +2447,12 @@ footer{
 }
 
 .contact h3 {
-  margin: 3.5rem 0;
+  margin-top: 3.5rem;
+  margin-bottom: 2rem;
 }
 
 .contact div {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .contact i {
