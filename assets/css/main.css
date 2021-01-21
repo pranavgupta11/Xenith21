@@ -57,6 +57,10 @@ ul li, ol li {
   list-style: none;
 
 }
+#orgTeam {
+  padding-top: 80px;
+}
+
 .Lbg{
   background: #333333;
   position: relative;
