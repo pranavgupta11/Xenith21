@@ -90,7 +90,8 @@ ul li, ol li {
   text-transform: uppercase;
   font-weight: 400;
   display: inline-block;
-  background-image: linear-gradient(to right,  #ff6ec7,#ccff00);
+  background-image: linear-gradient(to right,  #ff6ec7,#ffe227);
+  /* background-image: linear-gradient(to right,  #ffe227,#eaac7f); */
   -webkit-background-clip: text;
   color: transparent;
   /* letter-spacing: 5px; */
@@ -103,7 +104,7 @@ ul li, ol li {
   hyphens: auto;
    line-height: 1.6;
    color: #989898;
-   font-weight: bold;
+   /* font-weight: bold; */
 }
 .video-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; }
 
@@ -132,8 +133,9 @@ ul li, ol li {
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
 } */
 .ieeeLogo {
-  height: 70px;
-  width: 150px;
+  height: 29%;
+  width: 100%;
+  /* width: 150px; */
 }
 .hero-heading {
   font-size: 40px;
@@ -2422,10 +2424,11 @@ footer{
 }
 
 .contact i {
-  font-size: 200%;
+  font-size: 100%;
 }
 
 .contact span{
   vertical-align: super;
   margin-left: 1rem;
+  font-size: 80%;
 }
