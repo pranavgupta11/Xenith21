@@ -2,9 +2,9 @@
 html {
   overflow-x: hidden;
 }
-
 body {
-  background: #fff;
+  /* background: #212121; */
+  background: white;
   font-size: 15px;
   font-weight: 400;
   font-family: 'Lato', sans-serif;
@@ -55,8 +55,56 @@ ul, ol {
 
 ul li, ol li {
   list-style: none;
+
+}
+.Lbg{
+  background: #333333;
+  color: white;
+}
+.Dbg{
+  background: #222222;
+  color: white;
+}
+.neonHeading {
+  font-family: 'Signika', sans-serif;
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  display: inline-block;
+  background-image: linear-gradient(to right,  #ff6ec7,#00FFFF);
+  -webkit-background-clip: text;
+  color: transparent;
+  /* letter-spacing: 5px; */
+  transition: all .2s;
+  /* position: inherit; */
+}
+/* .neonHeading:before {
+  position: absolute;
+  content: '';
+  left: 85px;
+  bottom: 8px;
+  width: 84px;
+  height: 1px;
+  background-color: #fff;
 }
 
+.neonHeading:after {
+  position: absolute;
+  content: '';
+  left: 105px;
+  bottom: 2px;
+  width: 84px;
+  height: 1px;
+  background-color: #E91E63;
+} */
+  /* .heading-primary:hover {
+    transform: skewY(2deg) skewX(10deg) scale(1.1);
+    text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
+} */
+.ieeeLogo {
+  height: 70px;
+  width: 150px;
+}
 .hero-heading {
   font-size: 40px;
   font-weight: 700;
@@ -111,9 +159,9 @@ ul li, ol li {
   content: '';
   left: 15px;
   bottom: 8px;
-  width: 48px;
+  width: 84px;
   height: 1px;
-  background-color: #E91E63;
+  background-color: #fff;
 }
 
 .section-title:after {
@@ -121,7 +169,7 @@ ul li, ol li {
   content: '';
   left: 0px;
   bottom: 2px;
-  width: 48px;
+  width: 84px;
   height: 1px;
   background-color: #E91E63;
 }
@@ -488,7 +536,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .section-padding {
-  padding: 20px 0;
+  padding: 70px 0;
 }
 
 .no-padding {
@@ -956,9 +1004,9 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 /* Sponsors Area */
-#sponsors {
+/* #sponsors {
   background: #f3f4f3;
-}
+} */
 
 #sponsors .spnsors-logo {
   text-align: center;
@@ -1160,7 +1208,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 /* Gallery Section */
 #gallery {
-  background: #f3f4f3;
+  /* background: #f3f4f3; */
   position: relative;
 }
 
@@ -1223,7 +1271,9 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .team-item {
-  margin: 5px 5px 55px 10px;
+  /* margin: 5px 5px 55px 10px; */
+  text-align: center;
+  margin: 15px auto;
   padding: 5px;
   border-radius: 4px;
   position: relative;
@@ -1858,7 +1908,15 @@ footer{
 }
 
 .footer-area .footer-social li a {
-  color: #000;
+  width: 35px;
+  height: 35px;
+    font-size: 30px;
+    margin-right: 5px;
+    transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+  /* color: #000;
   background: #fff;
   width: 35px;
   height: 35px;
@@ -1867,23 +1925,21 @@ footer{
   text-align: center;
   border-radius: 4px;
   font-size: 15px;
-  margin-right: 5px;
-  transition: all 0.3s ease-in-out 0s;
-  -moz-transition: all 0.3s ease-in-out 0s;
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  -o-transition: all 0.3s ease-in-out 0s;
+   */
 }
 
-.footer-area .footer-social li a:hover {
+/* .footer-area .footer-social li a:hover {
   color: #fff;
 }
 
 .footer-area .footer-social li .facebook:hover {
   background: #3B5998;
+  width: 35px;
+  height: 35px;
 }
 
 .footer-area .footer-social li .twitter:hover {
-  background: #00aced;
+  background: RGB(188, 42, 141);
 }
 
 .footer-area .footer-social li .linkedin:hover {
@@ -1896,7 +1952,7 @@ footer{
 
 .footer-area .footer-social li .google-plus:hover {
   background: #d34836;
-}
+} */
 
 .footer-area .footer-text p {
   font-size: 14px;
