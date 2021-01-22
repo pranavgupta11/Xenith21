@@ -1074,8 +1074,8 @@ a.back-to-top:hover, a.back-to-top:focus {
   padding: 50px;
   margin-bottom: 30px;
   display: inline-block;
-  border: 1px solid #ddd;
-  background: #fff;
+  border: 1px solid #708090;
+ /* background: #fff;*/
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out;
 }
@@ -1101,8 +1101,32 @@ a.back-to-top:hover, a.back-to-top:focus {
   max-width: 800px;
   margin: 0 auto;
   position: relative;
-}
+  filter: blur(5px);
 
+}
+.banner{
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 5;
+  width: 35%;
+  padding: 40px 0;
+  text-align: center;
+  border-top-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+  background-color: rgba(0,0,0,0.3);
+  color: #fff;
+  font-weight: bold;
+
+}
+.banner_head{
+  font-size: 60px;
+}
+.banner_para{
+  font-size: 40px;
+}
 .timeline ul {
   list-style: none;
 }
@@ -1415,13 +1439,17 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .team-item .info-text {
   position: absolute;
-  bottom: 10px;
+  bottom: 6px;
   text-align: center;
-  width: inherit;
-  padding: 15px 20px;
-  background: linear-gradient(to right, #efc4f1, #aed5f0);
+  width: 96%;
+  /* padding: 15px 20px; */
+  padding: 2px 5px;
+  /* background: linear-gradient(to right, #efc4f1, #aed5f0); */
+  background: rgba(51, 51, 51, 0.95);
+
   border: 1px solid black;
-  border-radius: 50%;
+  /* border-radius: 50%; */
+  border-radius: 2%;
 }
 
 .team-item .info-text h3 {
@@ -1432,7 +1460,8 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .team-item .info-text h3 a {
-  color: black;
+  /* color: black; */
+  color: #fff;
 }
 
 .team-item .info-text h3 a:hover {
@@ -1442,8 +1471,10 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .team-item .info-text p {
   margin: 0;
-  font-size: small;
-  color: #515151;
+  font-size: 15px;
+  /* color: #515151; */
+  color: #fff;
+  font-weight: bold;
 }
 
 .team-item:hover .team-overlay {
@@ -2446,11 +2477,12 @@ footer{
 }
 
 .contact h3 {
-  margin: 3.5rem 0;
+  margin-top: 3.5rem;
+  margin-bottom: 2rem;
 }
 
 .contact div {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .contact i {
