@@ -1112,7 +1112,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   left: 50%;
   transform: translate(-50%,-50%);
   z-index: 5;
-  width: 45%;
+  width: 35%;
   padding: 40px 0;
   text-align: center;
   border-top-left-radius: 70px;
@@ -1121,6 +1121,12 @@ a.back-to-top:hover, a.back-to-top:focus {
   color: #fff;
   font-weight: bold;
 
+}
+.banner_head{
+  font-size: 60px;
+}
+.banner_para{
+  font-size: 40px;
 }
 .timeline ul {
   list-style: none;
