@@ -144,9 +144,10 @@ ul li, ol li {
     text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2);
 } */
 .ieeeLogo {
-  height: 29%;
-  width: 100%;
+  height: auto;
+  width: 40rem;
   /* width: 150px; */
+text-align: center;
 }
 
 @media(max-width: 910px) {
