@@ -42,9 +42,9 @@
 .homepage_logo {
   background: #000000a8;
   position: absolute;
-  top: 30vh;
+  top: 33vh;
   padding: 1.5rem 0;
-  left: 33vw;
+  left: 26vw;
   border-radius: 3%;
   /* box-shadow: #ff42fd 0 0 30px -1px; */
   box-shadow: #00ffff 0 0 30px -1px;
@@ -54,7 +54,7 @@
   .homepage_logo {
     width: 48%;
     left: 26vw;
-    top: 31vh;
+    top: 36vh;
   }
 }
 

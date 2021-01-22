@@ -1439,16 +1439,13 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .team-item .info-text {
   position: absolute;
-  bottom: 6px;
+  bottom: 5px;
   text-align: center;
   width: 96%;
   /* padding: 15px 20px; */
   padding: 2px 5px;
   /* background: linear-gradient(to right, #efc4f1, #aed5f0); */
   background: rgba(51, 51, 51, 0.95);
-
-  border: 1px solid black;
-  /* border-radius: 50%; */
   border-radius: 2%;
 }
 
