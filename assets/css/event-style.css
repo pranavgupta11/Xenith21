@@ -105,7 +105,8 @@ body {
     }
     .evnt-fluid{
       width: 100%;
-      height: 50%;
+      height: 30%;
+      display: flex;
       justify-content: center;
       align-items: center;
     }
