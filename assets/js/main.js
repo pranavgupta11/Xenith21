@@ -2,7 +2,7 @@
 
   "use strict";
 
-  $(window).on('load', function() {
+  $(window).on('load', setTimeout(function() {
 
   /*Page Loader active
     ========================================================*/
@@ -77,6 +77,6 @@
         return false;
       });
 
-  });
+  }), 900);
 
 }(jQuery));

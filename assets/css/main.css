@@ -63,6 +63,7 @@ ul li, ol li {
   margin-bottom: 6rem;
 }
 
+
 .Lbg{
   background: #333333;
   position: relative;
@@ -87,7 +88,12 @@ ul li, ol li {
   /* position: inherit; */
 }
 #timelin{
-  margin-left: 42%;
+  margin-left: 43%;
+}
+@media (max-width: 1500px) {
+  #timelin{
+    margin-left: 42%;
+  }
 }
 
 @media (max-width: 676px) {
@@ -110,7 +116,7 @@ ul li, ol li {
   font-size: 3.5rem;
   text-transform: uppercase;
   font-weight: 400;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
   display: inline-block;
   background-image: linear-gradient(to right,  #ff6ec7,#ffe227);
   /* background-image: linear-gradient(to right,  #ffe227,#eaac7f); */
@@ -121,10 +127,11 @@ ul li, ol li {
   /* position: inherit; */
 }
 .about-content {
-  font-size: 2rem;
-  overflow-wrap: break-word;
+  font-size: 1.8rem;
+  /* overflow-wrap: break-word; */
+  text-align: center;
   hyphens: auto;
-   line-height: 1.6;
+   line-height: 2.4;
    color: #989898;
    /* font-weight: bold; */
 }
@@ -1139,6 +1146,28 @@ a.back-to-top:hover, a.back-to-top:focus {
 .banner_para{
   font-size: 40px;
 }
+@media (min-width: 772px) and (max-width: 991px) {
+  .banner_head{
+    font-size: 40px;
+  }
+  .banner_para{
+    font-size: 30px;
+  }
+  .banner{
+    width: 50%;
+  }
+}
+@media (max-width: 772px) {
+  .banner_head{
+    font-size: 3px;
+  }
+  .banner_para{
+    font-size: 2px;
+  }
+  .banner{
+    width: 80%;
+  }
+}
 .timeline ul {
   list-style: none;
 }
@@ -1313,13 +1342,26 @@ a.back-to-top:hover, a.back-to-top:focus {
   margin-bottom: 30px;
 }
 
+.img-fluidd{
+  width: 100%;
+  height: 31vh;
+  justify-content: center;
+  align-items: center;
+}
+
+@media(max-width: 576px) {
+  .img-fluidd{
+    max-width: 380px;
+  }
+}
+
 #gallery .gallery-box .overlay-box {
   position: absolute;
   top: 0px;
   left: 0px;
   right: 0px;
   bottom: 0px;
-  padding-top: 35%;
+  padding-top: 24%;
   -webkit-transition: all 500ms ease;
   -moz-transition: all 500ms ease;
   -ms-transition: all 500ms ease;
@@ -1353,6 +1395,18 @@ a.back-to-top:hover, a.back-to-top:focus {
   transform: scale(1, 1);
   transition: all 500ms ease;
 }
+
+@media(max-width: 576px) {
+  #gallery .gallery-box:hover .overlay-box {
+    background: none;
+    transform: none;
+    transition: none;
+  }
+  .lightbox {
+    display: none;
+  }
+}
+
 
 #gallery .gallery-box:hover .overlay-box i {
   -webkit-transform: scale(1, 1);
@@ -2506,4 +2560,14 @@ footer{
   /* vertical-align: super; */
   margin-left: 1rem;
   font-size: 80%;
+}
+
+ul.footer-social li {
+  margin: 0px 24px;
+}
+
+@media(max-width: 750px) {
+  ul.footer-social li {
+    margin: 0px 6px;
+  }
 }
