@@ -207,7 +207,8 @@ body {
       text-transform: none;
       color: #000;
       text-align: center !important;
-      padding: 1rem;
+      padding: 1.5rem;
+      padding-top: 3rem;
     }
 
   .event-card__details-span {
@@ -216,6 +217,9 @@ body {
     color: #000;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
+  }
+  .event-card__det-span {
+    font-weight: 700;
   }
 
   /* BUTTON */
